@@ -379,6 +379,7 @@ div.step-first{margin-top:0px;}
 .list-container .well:hover{
 	box-shadow:0px 0px 5px #007FCC;
 }
+.link-ext{padding-right:13px;background:url(../img/link.png) right center no-repeat;}
 
 
 #content{border:1px solid #ddd;}

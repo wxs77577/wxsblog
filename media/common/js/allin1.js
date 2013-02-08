@@ -48,13 +48,19 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 		if(IS_BACKEND){
 			initWYSIWYG();
 			initMainForm('#main_form');
+			
 		}else{
+			initLinks();
 			initEM();
 			initBackToTop();
 			sh_autoload();
 		}
 	});
 })(jQuery);
+
+function initLinks(){
+	$('#content a[target="_blank"]').addClass('link-ext');
+}
 
 function initEM(){
 	$('#content img').each(function(){

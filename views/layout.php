@@ -15,7 +15,7 @@
 		'sh/styles/shCore.css',
 		'sh/styles/shThemeDefault.css',
 		'common/css/style.css',
-	),'common/css/allin1.css',0)?>
+	),'common/css/allin1.css',1)?>
 </head>
 <body>
 	<div class="container">
@@ -69,8 +69,7 @@
 				</p>
 				Copyright &copy; 2012 代码之美
 				<script src="http://s19.cnzz.com/stat.php?id=4872656&amp;web_id=4872656" type="text/javascript"></script>
-				<!--QQ群：289821230-->
-				<a href="sitemap.txt">SiteMap</a>
+				<a href="https://github.com/wxs77577/wxsblog" target="_blank">本站完整源码已经落户GitHub啦</a>
 				<!--
 				<a href="http://www.scanv.com" id="scanv_verify_link" vm="1" vs="80x30">互联网安全</a>
 				<script src="http://static.scanv.com/static/js/scanv_verify.js" scanv_id="50fcad12a61d433d646cbb77" charset="utf-8" type="text/javascript"></script>
@@ -96,7 +95,7 @@
 		'sh/scripts/shCore.js',
 		'sh/scripts/shAutoloader.js',
 		'common/js/script.js',
-	),'common/js/allin1.js',0)?>
+	),'common/js/allin1.js',1)?>
 	
 	<?php if($a=='read'){ ?>
 		<!-- Baidu Button BEGIN -->

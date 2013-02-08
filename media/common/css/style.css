@@ -1,0 +1,42 @@
+body{font-family:Georgia,"微软雅黑"}
+.container{width:98%;margin:10px auto 0px auto;min-width:1000px;}
+.center,td.center,th.center{text-align:center;}
+.list-item{height:100px;margin:0px;}
+.list-item p{font-size:90%;line-height:1.3em}
+.list-item small{overflow:hidden;}
+.clear{clear:both;}
+.text-bright{color:#eee}
+a.text-bright:hover{color:#ccc}
+div.bg-white{background-color:#fff}
+div.step{margin:-20px auto 0px;float:none}
+div.step-first{margin-top:0px;}
+.list-container .well:hover{
+	box-shadow:0px 0px 5px #007FCC;
+}
+
+
+#content{border:1px solid #ddd;}
+#content p{text-indent:2em;}
+#content blockquote{margin:2em 0px;padding:0.5em;background:#f3f3f3;width:auto;display:inline-block}
+#content blockquote p{text-indent:0em;}
+#content img{margin:0.5em;padding:0.2em;border:1px solid #e7e7e7;box-shadow:0px 0px 5px #333}
+
+
+/*Reset xhEditor*/
+.xheLayout,.xheDialog{line-height:0.9em;}
+.xheDialog label{display:inline;font-size:13px;line-height:30px;}
+.xheDialog select{width:auto}
+.btnCode {
+	background:transparent url(../../prettify/code.gif) no-repeat 16px 16px;
+	background-position:2px 2px;
+}
+
+/*Reset SyntaxHighlighter*/
+.syntaxhighlighter{line-height:16px;font-size:1em;}
+.syntaxhighlighter .container{width:auto;margin:0px;min-width:auto;}
+.syntaxhighlighter td.gutter,
+.syntaxhighlighter td.code{margin:0px;padding:0px;vertical-align:top;}
+.syntaxhighlighter .container div{line-height:15px;margin:0px;padding:0px;}
+.syntaxhighlighter code{padding:0px;background:transparent;border:none;}
+.syntaxhighlighter textarea{font-size:1em;line-height:16px;}
+

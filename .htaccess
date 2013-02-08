@@ -1,0 +1,15 @@
+php_flag magic_quotes_gpc Off
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	
+	RewriteBase /
+	
+	RewriteCond %{REQUEST_FILENAME} -f [OR]
+	RewriteCond %{REQUEST_FILENAME} -d
+	RewriteRule ^(.*)$ $1 [L]
+	
+	RewriteRule ^([\w-]+?)-(\d+)/$  ?a=list&cname=$1&page=$2 [L]
+	RewriteRule ^([\w-]+)/([\w-]+)$  ?a=read&cname=$1&name=$2 [L]
+	RewriteRule ^([\w-]+)/$  ?a=list&cname=$1 [L]
+</IfModule>

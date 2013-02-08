@@ -15,7 +15,7 @@
 		'sh/styles/shCore.css',
 		'sh/styles/shThemeDefault.css',
 		'common/css/style.css',
-	),'common/css/allin1.css',1)?>
+	),'common/css/allin1.css',0)?>
 </head>
 <body>
 	<div class="container">
@@ -95,7 +95,7 @@
 		'sh/scripts/shCore.js',
 		'sh/scripts/shAutoloader.js',
 		'common/js/script.js',
-	),'common/js/allin1.js',1)?>
+	),'common/js/allin1.js',0)?>
 	
 	<?php if($a=='read'){ ?>
 		<!-- Baidu Button BEGIN -->
